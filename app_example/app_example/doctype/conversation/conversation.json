@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CONVO-.#####",
+ "creation": "2025-06-23 14:39:21.388286",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ai_agent",
+  "text",
+  "audio_url",
+  "vue_component"
+ ],
+ "fields": [
+  {
+   "fieldname": "ai_agent",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "AI Agent",
+   "options": "AI Agent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "audio_url",
+   "fieldtype": "Data",
+   "label": "Audio URL",
+   "options": "URL"
+  },
+  {
+   "fieldname": "vue_component",
+   "fieldtype": "HTML",
+   "label": "Vue Component",
+   "options": "<script type=\"module\" src=\"/assets/frappe/vue_widget/my-vue-widget.iife.js\"></script>\n<my-widget some-prop=\"\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f\" id=\"custom-widget\"></my-widget>"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-24 14:22:17.394632",
+ "modified_by": "Administrator",
+ "module": "App Example",
+ "name": "Conversation",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
