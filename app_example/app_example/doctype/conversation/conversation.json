@@ -35,13 +35,13 @@
    "fieldname": "vue_component",
    "fieldtype": "HTML",
    "label": "Vue Component",
-   "options": "<script type=\"module\" src=\"/assets/frappe/vue_widget/my-vue-widget.iife.js\"></script>\n<my-widget some-prop=\"\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f\" id=\"custom-widget\"></my-widget>"
+   "options": "<script type=\"module\" src=\"/assets/app_example/vue_widget/script.js\"></script>\n<my-widget some-prop=\"\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f\" id=\"custom-widget\"></my-widget>"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-24 14:22:17.394632",
+ "modified": "2025-06-24 14:29:31.126857",
  "modified_by": "Administrator",
  "module": "App Example",
  "name": "Conversation",
