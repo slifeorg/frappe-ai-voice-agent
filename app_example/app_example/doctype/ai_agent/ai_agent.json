@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AIAGENT-.#####",
+ "creation": "2025-06-23 12:02:18.621011",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "llm_configuration_tab",
+  "llm_configuration_section",
+  "llm_name",
+  "llm_model",
+  "llm_profile",
+  "llm_language",
+  "llm_prompt",
+  "llm_profile_prompt"
+ ],
+ "fields": [
+  {
+   "fieldname": "llm_configuration_tab",
+   "fieldtype": "Tab Break",
+   "label": "LLM Configuration"
+  },
+  {
+   "fieldname": "llm_configuration_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Camilla",
+   "description": "Name of the LLM",
+   "fieldname": "llm_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "default": "gpt-4o",
+   "description": "Model identifier for the LLM",
+   "fieldname": "llm_model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "default": "salesrepresentative",
+   "description": "Profile used by the LLM",
+   "fieldname": "llm_profile",
+   "fieldtype": "Data",
+   "label": "Profile"
+  },
+  {
+   "default": "eng",
+   "description": "Language used by the LLM",
+   "fieldname": "llm_language",
+   "fieldtype": "Data",
+   "label": "Language"
+  },
+  {
+   "description": "Prompt for the LLM",
+   "fieldname": "llm_prompt",
+   "fieldtype": "Text",
+   "label": "Prompt"
+  },
+  {
+   "default": "You are helpful assistant",
+   "description": "Profile prompt for the LLM",
+   "fieldname": "llm_profile_prompt",
+   "fieldtype": "Text",
+   "label": "Profile Prompt"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-24 14:21:33.458311",
+ "modified_by": "Administrator",
+ "module": "App Example",
+ "name": "AI Agent",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
