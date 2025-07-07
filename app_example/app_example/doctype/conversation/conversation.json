@@ -28,8 +28,7 @@
   {
    "fieldname": "audio_url",
    "fieldtype": "Data",
-   "label": "Audio URL",
-   "options": "URL"
+   "label": "Audio URL"
   },
   {
    "fieldname": "vue_component",
@@ -41,7 +40,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-07 15:02:13.280283",
+ "modified": "2025-07-07 15:36:00.374534",
  "modified_by": "Administrator",
  "module": "App Example",
  "name": "Conversation",
