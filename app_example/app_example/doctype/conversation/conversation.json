@@ -35,13 +35,13 @@
    "fieldname": "vue_component",
    "fieldtype": "HTML",
    "label": "Vue Component",
-   "options": "<script type=\"module\" src=\"/assets/app_example/vue_widget/subtitle-wave-player.js\"></script>\n\n<subtitle-wave-player></subtitle-wave-player>"
+   "options": "<script type=\"module\" src=\"/assets/app_example/vue_widget/subtitle-wave-player.js\"></script>\n\n<subtitle-wave-player audio-url=\"/files/audio/audio.mp3\"></subtitle-wave-player>"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-25 14:43:42.716212",
+ "modified": "2025-07-07 15:02:13.280283",
  "modified_by": "Administrator",
  "module": "App Example",
  "name": "Conversation",
