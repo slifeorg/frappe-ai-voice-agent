@@ -1,0 +1,29 @@
+{
+    "clients_config": [
+      {
+        "name": "kattiecatlina",
+        "telegram_session_name": "bot1_session",
+        "telegram_api_id": 26174987,
+        "telegram_api_hash": "0f43ed6ea83d736b1ab435202e8b8e1a",
+        "telegram_phone": "+14642570863",
+        "llm_name": "kattiecatlina",
+        "target_channel_id": -4855605163,
+        "llm_model": "gpt-4o",
+        "llm_profile_prompt": "You are a helpful assistant",
+        "llm_prompt": "Respond to the user."
+      },
+      {
+        "name": "KatSweetie",
+        "telegram_session_name": "bot2_session",
+        "telegram_api_id": 23230119,
+        "telegram_api_hash": "c4dee1106e37c14a74bbbd0762d0f687",
+        "telegram_phone": "+13863998926",
+        "llm_name": "KatSweetie",
+        "target_channel_id": -4855605163,
+        "llm_model": "gpt-4o",
+        "llm_profile_prompt": "You are a helpful assistant",
+        "llm_prompt": "Respond to the user."
+      }
+    ],
+    "seen_messages_file": "/workspace/development/frappe-bench/sites/tg-agents.localhost/seen_messages.json"
+  }
