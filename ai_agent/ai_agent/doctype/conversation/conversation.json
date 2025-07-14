@@ -34,7 +34,7 @@
    "fieldname": "vue_component",
    "fieldtype": "HTML",
    "label": "Vue Component",
-   "options": "<script type=\"module\" src=\"/assets/app_example/vue_widget/subtitle-wave-player.js\"></script>\n\n<subtitle-wave-player></subtitle-wave-player>"
+   "options": "<script type=\"module\" src=\"/assets/ai_agent/vue_widget/subtitle-wave-player.js\"></script>\n\n<subtitle-wave-player></subtitle-wave-player>"
   }
  ],
  "grid_page_length": 50,
@@ -42,7 +42,7 @@
  "links": [],
  "modified": "2025-07-07 15:46:12.073638",
  "modified_by": "Administrator",
- "module": "App Example",
+ "module": "AI Agent",
  "name": "Conversation",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",

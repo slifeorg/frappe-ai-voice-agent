@@ -46,7 +46,7 @@ function update_vue_component(audio_url) {
     if (!audio_url) return;
     last_audio_url = audio_url;
     const html = `
-        <script type="module" src="/assets/app_example/vue_widget/subtitle-wave-player.js"></script>
+        <script type="module" src="/assets/ai_agent/vue_widget/subtitle-wave-player.js"></script>
         <subtitle-wave-player audio-url="${audio_url}"></subtitle-wave-player>
     `;
     cur_frm.fields_dict.vue_component.$wrapper.html(html);

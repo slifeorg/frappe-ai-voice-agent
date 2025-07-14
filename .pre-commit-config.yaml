@@ -8,7 +8,7 @@ repos:
     rev: v5.0.0
     hooks:
       - id: trailing-whitespace
-        files: "app_example.*"
+        files: "ai_agent.*"
         exclude: ".*json$|.*txt$|.*csv|.*md|.*svg"
       - id: check-merge-conflict
       - id: check-ast
@@ -38,11 +38,11 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                app_example/public/dist/.*|
+                ai_agent/public/dist/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                app_example/templates/includes/.*|
-                app_example/public/js/lib/.*
+                ai_agent/templates/includes/.*|
+                ai_agent/public/js/lib/.*
             )$
 
 
@@ -55,12 +55,12 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                app_example/public/dist/.*|
+                ai_agent/public/dist/.*|
                 cypress/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                app_example/templates/includes/.*|
-                app_example/public/js/lib/.*
+                ai_agent/templates/includes/.*|
+                ai_agent/public/js/lib/.*
             )$
 
 ci:

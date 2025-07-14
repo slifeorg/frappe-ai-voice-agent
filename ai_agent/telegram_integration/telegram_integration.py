@@ -160,7 +160,7 @@ def get_telegram_clients():
         session_name = str(session_name)
         api_hash = str(api_hash)
 
-        session_dir = os.path.join("/workspace/development/frappe-bench/apps/app_example/app_example/telegram_integration/sessions", session_name)
+        session_dir = os.path.join("/workspace/development/frappe-bench/apps/ai_agent/ai_agent/telegram_integration/sessions", session_name)
         logger.debug(f"Creating session directory: {session_dir}")
         os.makedirs(session_dir, exist_ok=True)
         session_path = os.path.join(session_dir, f"{session_name}.session")
