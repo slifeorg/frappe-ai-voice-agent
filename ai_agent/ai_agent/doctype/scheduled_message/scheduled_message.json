@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-11 13:03:48.873896",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "message_content",
+  "target_type",
+  "target_id",
+  "agent",
+  "scheduled_time",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "message_content",
+   "fieldtype": "Small Text",
+   "label": "Message Content"
+  },
+  {
+   "fieldname": "target_type",
+   "fieldtype": "Select",
+   "label": "Target Type",
+   "options": "\nChannel\nUser"
+  },
+  {
+   "fieldname": "target_id",
+   "fieldtype": "Data",
+   "label": "Target ID"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Link",
+   "label": "Agent",
+   "options": "Agents"
+  },
+  {
+   "fieldname": "scheduled_time",
+   "fieldtype": "Datetime",
+   "label": "Scheduled Time"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nPending\nSent\nFailed"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-11 13:22:26.488346",
+ "modified_by": "Administrator",
+ "module": "AI Agent",
+ "name": "Scheduled Message",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
