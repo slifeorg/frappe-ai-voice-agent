@@ -1,6 +1,6 @@
-app_name = "app_example"
-app_title = "App Example"
-app_publisher = "Andrii Pavlichuk"
+app_name = "ai_agent"
+app_title = "AI Agent"
+app_publisher = "SLife"
 app_description = "AI voice agent"
 app_email = "noemail@example.com"
 app_license = "mit"
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "app_example",
-# 		"logo": "/assets/app_example/logo.png",
-# 		"title": "App Example",
-# 		"route": "/app_example",
-# 		"has_permission": "app_example.api.permission.has_app_permission"
+# 		"name": "ai_agent",
+# 		"logo": "/assets/ai_agent/logo.png",
+# 		"title": "AI Agent",
+# 		"route": "/ai_agent",
+# 		"has_permission": "ai_agent.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/app_example/css/app_example.css"
+# app_include_css = "/assets/ai_agent/css/ai_agent.css"
 app_include_js = "https://unpkg.com/vue@3"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/app_example/css/app_example.css"
-# web_include_js = "/assets/app_example/js/app_example.js"
+# web_include_css = "/assets/ai_agent/css/ai_agent.css"
+# web_include_js = "/assets/ai_agent/js/ai_agent.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "app_example/public/scss/website"
+# website_theme_scss = "ai_agent/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_include_js = "https://unpkg.com/vue@3"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "app_example/public/icons.svg"
+# app_include_icons = "ai_agent/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -78,43 +78,43 @@ app_include_js = "https://unpkg.com/vue@3"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "app_example.utils.jinja_methods",
-# 	"filters": "app_example.utils.jinja_filters"
+# 	"methods": "ai_agent.utils.jinja_methods",
+# 	"filters": "ai_agent.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "app_example.install.before_install"
-# after_install = "app_example.install.after_install"
+# before_install = "ai_agent.install.before_install"
+# after_install = "ai_agent.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "app_example.uninstall.before_uninstall"
-# after_uninstall = "app_example.uninstall.after_uninstall"
+# before_uninstall = "ai_agent.uninstall.before_uninstall"
+# after_uninstall = "ai_agent.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "app_example.utils.before_app_install"
-# after_app_install = "app_example.utils.after_app_install"
+# before_app_install = "ai_agent.utils.before_app_install"
+# after_app_install = "ai_agent.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "app_example.utils.before_app_uninstall"
-# after_app_uninstall = "app_example.utils.after_app_uninstall"
+# before_app_uninstall = "ai_agent.utils.before_app_uninstall"
+# after_app_uninstall = "ai_agent.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "app_example.notifications.get_notification_config"
+# notification_config = "ai_agent.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -145,39 +145,39 @@ app_include_js = "https://unpkg.com/vue@3"
 
 # scheduler_events = {
 # 	"all": [
-# 		"app_example.tasks.all"
+# 		"ai_agent.tasks.all"
 # 	],
 # 	"daily": [
-# 		"app_example.tasks.daily"
+# 		"ai_agent.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"app_example.tasks.hourly"
+# 		"ai_agent.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"app_example.tasks.weekly"
+# 		"ai_agent.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"app_example.tasks.monthly"
+# 		"ai_agent.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "app_example.install.before_tests"
+# before_tests = "ai_agent.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "app_example.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "ai_agent.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "app_example.task.get_dashboard_data"
+# 	"Task": "ai_agent.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -191,13 +191,13 @@ app_include_js = "https://unpkg.com/vue@3"
 
 # Request Events
 # ----------------
-# before_request = ["app_example.utils.before_request"]
-# after_request = ["app_example.utils.after_request"]
+# before_request = ["ai_agent.utils.before_request"]
+# after_request = ["ai_agent.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["app_example.utils.before_job"]
-# after_job = ["app_example.utils.after_job"]
+# before_job = ["ai_agent.utils.before_job"]
+# after_job = ["ai_agent.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -227,7 +227,7 @@ app_include_js = "https://unpkg.com/vue@3"
 # --------------------------------
 
 # auth_hooks = [
-# 	"app_example.auth.validate"
+# 	"ai_agent.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

@@ -1,7 +1,7 @@
 [project]
-name = "app_example"
+name = "ai_agent"
 authors = [
-    { name = "Andrii Pavlichuk", email = "noemail@example.com"}
+    { name = "SLife", email = "noemail@example.com"}
 ]
 description = "AI voice agent"
 requires-python = ">=3.10"
