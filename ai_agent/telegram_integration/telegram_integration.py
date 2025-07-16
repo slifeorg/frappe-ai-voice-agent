@@ -1,5 +1,6 @@
 import os
 import asyncio
+import telethon
 import frappe
 from frappe.utils.file_manager import save_file
 import json
@@ -29,11 +30,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Frappe configuration
-frappe.init(site="tg-agents.localhost", sites_path="/workspace/development/frappe-bench/sites")
+frappe.init(site="ai-agent.localhost", sites_path="/workspace/development/frappe-bench/sites")
 frappe.connect()
 
 def get_site_name() -> str:
-    return "tg-agents.localhost"
+    return "ai-agent.localhost"
 
 def get_site_path(site_name: str, path: str) -> str:
     return os.path.join("/workspace/development/frappe-bench/sites", site_name, path)

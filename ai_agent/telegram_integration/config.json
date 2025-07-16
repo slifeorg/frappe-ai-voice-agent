@@ -25,5 +25,5 @@
         "llm_prompt": "Respond to the user."
       }
     ],
-    "seen_messages_file": "/workspace/development/frappe-bench/sites/tg-agents.localhost/seen_messages.json"
+    "seen_messages_file": "/workspace/development/frappe-bench/sites/ai-agent.localhost/seen_messages.json"
   }

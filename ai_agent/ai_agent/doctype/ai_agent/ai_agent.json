@@ -13,7 +13,11 @@
   "llm_profile",
   "llm_language",
   "llm_prompt",
-  "llm_profile_prompt"
+  "llm_profile_prompt",
+  "telegram_tab",
+  "user_id",
+  "agent_name",
+  "title"
  ],
  "fields": [
   {
@@ -65,12 +69,32 @@
    "fieldname": "llm_profile_prompt",
    "fieldtype": "Text",
    "label": "Profile Prompt"
+  },
+  {
+   "fieldname": "telegram_tab",
+   "fieldtype": "Tab Break",
+   "label": "Telegram"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID"
+  },
+  {
+   "fieldname": "agent_name",
+   "fieldtype": "Data",
+   "label": "Agent Name"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-24 14:21:33.458311",
+ "modified": "2025-07-16 12:46:22.679651",
  "modified_by": "Administrator",
  "module": "AI Agent",
  "name": "AI Agent",
