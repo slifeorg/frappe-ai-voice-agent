@@ -1,0 +1,18 @@
+/* Hiding ID Column in List View */
+[data-route="List/AI Agent/List"] .frappe-list .list-subject,
+[data-route="List/Conversation/List"] .frappe-list .list-subject,
+[data-route="List/Agents/List"] .frappe-list .list-subject,
+[data-route="List/Room/List"] .frappe-list .list-subject,
+[data-route="List/Message/List"] .frappe-list .list-subject,
+[data-route="List/Scheduled Message/List"] .frappe-list .list-subject {
+    flex: unset;
+}
+
+[data-route="List/AI Agent/List"] .frappe-list .list-subject span:last-child,
+[data-route="List/Conversation/List"] .frappe-list .list-subject span:last-child,
+[data-route="List/Agents/List"] .frappe-list .list-subject span:last-child,
+[data-route="List/Room/List"] .frappe-list .list-subject span:last-child,
+[data-route="List/Message/List"] .frappe-list .list-subject span:last-child,
+[data-route="List/Scheduled Message/List"] .frappe-list .list-subject span:last-child {
+    display: none;
+}

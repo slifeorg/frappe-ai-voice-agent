@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/ai_agent/css/ai_agent.css"
+app_include_css = "/assets/ai_agent/css/global.css"
 app_include_js = "https://unpkg.com/vue@3"
 
 # include js, css files in header of web template
