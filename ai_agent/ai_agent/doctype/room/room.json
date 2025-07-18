@@ -1,91 +1,80 @@
 {
- "actions": [],
- "allow_rename": 1,
- "creation": "2025-07-08 09:31:50.354346",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "chat_id",
-  "title",
-  "duration",
-  "result",
-  "audio_url",
-  "subtitles",
-  "vue_component",
-  "column_break_mzfk",
-  "messages_history_html"
- ],
- "fields": [
-  {
-   "fieldname": "chat_id",
-   "fieldtype": "Data",
-   "label": "Chat ID"
-  },
-  {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "label": "Title"
-  },
-  {
-   "fieldname": "audio_url",
-   "fieldtype": "Data",
-   "label": "Audio URL"
-  },
-  {
-   "fieldname": "subtitles",
-   "fieldtype": "Text",
-   "label": "Subtitles"
-  },
-  {
-   "fieldname": "vue_component",
-   "fieldtype": "HTML",
-   "label": "Audio Waveform",
-   "options": "&lt;script type=\"module\" src=\"/assets/ai_agent/vue_widget/subtitle-wave-player.js\"&gt;&lt;/script&gt;\n\n&lt;subtitle-wave-player style=\"border-radius: 8px; overflow: hidden;\"&gt;&lt;/subtitle-wave-player&gt;"
-  },
-  {
-   "fieldname": "column_break_mzfk",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "messages_history_html",
-   "fieldtype": "HTML",
-   "label": "Messages History"
-  },
-  {
-   "fieldname": "duration",
-   "fieldtype": "Data",
-   "label": "Duration"
-  },
-  {
-   "fieldname": "result",
-   "fieldtype": "Data",
-   "label": "Result"
-  }
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-07-18 13:11:01.803431",
- "modified_by": "Administrator",
- "module": "AI Agent",
- "name": "Room",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
- "row_format": "Dynamic",
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": []
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "field:room_id",
+    "creation": "2025-07-08 09:31:50.354346",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+     "room_id",
+     "title",
+     "audio_url",
+     "subtitles",
+     "vue_component",
+     "column_break_mzfk",
+     "messages_history_html"
+    ],
+    "fields": [
+     {
+      "fieldname": "room_id",
+      "fieldtype": "Data",
+      "label": "Room ID"
+     },
+     {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "label": "Title"
+     },
+     {
+      "fieldname": "audio_url",
+      "fieldtype": "Data",
+      "label": "Audio URL"
+     },
+     {
+      "fieldname": "subtitles",
+      "fieldtype": "Text",
+      "label": "Subtitles"
+     },
+     {
+      "fieldname": "vue_component",
+      "fieldtype": "HTML",
+      "label": "Audio Waveform",
+      "options": "<script type=\"module\" src=\"/assets/ai_agent/vue_widget/subtitle-wave-player.js\"></script>\n\n<subtitle-wave-player style=\"border-radius: 8px; overflow: hidden;\"></subtitle-wave-player>"
+     },
+     {
+      "fieldname": "column_break_mzfk",
+      "fieldtype": "Column Break"
+     },
+     {
+      "fieldname": "messages_history_html",
+      "fieldtype": "HTML",
+      "label": "Messages History"
+     }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-07-17 12:10:00",
+    "modified_by": "Administrator",
+    "module": "AI Agent",
+    "name": "Room",
+    "owner": "Administrator",
+    "permissions": [
+     {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+     }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
 }
